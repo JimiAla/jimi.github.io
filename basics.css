@@ -16,7 +16,6 @@ h2{color:antiquewhite}
     font-size:35px;
   }
 
-
   .grid-container {
     display: grid; /* enable the grid layout */
     grid-template-rows: 300px 400px; /* create two rows with a height of 50px */
@@ -31,7 +30,7 @@ h2{color:antiquewhite}
   .grid-item1{
     background:rgb(48, 46, 42);
     text-align: center;
-    font-size:50px;
+    font-size:40px;
   }
   
 .container {
