@@ -1,3 +1,42 @@
 h1{color:orange;}
 
-p{color:red;}
+p{color:rgb(24, 9, 9);}
+h2{color:antiquewhite}
+
+.container{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+  .navbar{
+    display:flex;
+    justify-content:space-between;
+    font-size:35px;
+  }
+
+
+  .grid-container {
+    display: grid; /* enable the grid layout */
+    grid-template-rows: 300px 400px; /* create two rows with a height of 50px */
+    grid-template-columns: 25% 75%; /* create three columns with widths of 25%, 50%, and 25% */
+  }
+  
+  .grid-item {
+    background: rgb(221, 215, 201); /* add some background color to the items */
+    text-align: center; /* center the text within the items */
+    font-size: 35px;
+  }
+  .grid-item1{
+    background:rgb(48, 46, 42);
+    text-align: center;
+    font-size:50px;
+  }
+  
+.container {
+  display: flex; /* enable flexbox on the container */
+  justify-content: space-between; /* distribute the boxes evenly across the container */
+  align-items: center; /* center the boxes vertically within the container */
+}
+
